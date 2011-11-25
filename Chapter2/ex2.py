@@ -1,0 +1,5 @@
+print("Including an integer works with %%d like this: %d" % 10)
+print("An integer converted to a float with %%f: %f" % 5)
+print("A normal float with %%f: %f" % 1.2345)
+print("A really large number with %%E: %E" % 6.789E10)
+print("Controlling the number of decimal places shown: %.02f" % 25.101010101)
